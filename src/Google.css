@@ -1,0 +1,35 @@
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+.card{
+    margin: 20px;
+}
+.card-body{
+    width: 100%;
+}
+.card-title{
+    font-weight: 500;
+    font-size: large;
+}
+.input{
+   justify-content: center;
+   text-align: center;
+}
+.form-label{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.card-img-top{
+    width: 30%;
+}
+@media (max-width:760px) {
+    .d-flex{
+        flex-direction: column;
+    }
+}
